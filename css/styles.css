@@ -1,0 +1,316 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: var(--white-color);
+    }
+    p, h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+    }
+    ul {
+        padding: 0;
+    }
+    .container {
+        width: 100%;
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    }
+:root {
+    --accent-color: #4D5AE5;
+    --white-color: #FFFFFF;
+}
+.link {
+    text-decoration: none;
+    color:#434455;
+}
+.link:hover, .link:focus {
+    color:#404bbf;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-logo {
+    color: var(--accent-color);
+    text-transform: uppercase;
+    font-family: "Raleway",sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    margin-right: 76px; 
+}
+.header-logo-accent {
+    color: #2E2F42;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.header-menu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.header-list-item {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.header-contacts {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    margin-left: auto;
+}
+.header-contacts-list {
+    display: flex;
+    gap: 40px;
+}
+.list {
+    list-style: none;
+    margin: 0;
+}
+.first-section {
+    background-color: #2E2F42;
+    text-align: center;
+    padding: 188px 0;
+}
+.first-section-title{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 496px; 
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+.first-section-btn {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px; 
+}
+.first-section-btn:hover, .first-section-btn:focus {
+    background-color: #404BBF;
+}
+.company-benefits {
+    padding-top: 120px; 
+    padding-bottom: 120px;
+}
+.company-benefits-list {
+    display: flex;
+    gap: 24px;
+}
+.benefits-item {
+    width: calc((100% - 72px)/4);
+}
+.company-benefits-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.company-benefits-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.company-activity {
+    text-transform: capitalize;
+    padding-bottom: 120px;
+}
+.company-activity-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 72px;
+}
+.activity-image-list {
+    display: flex;
+    gap: 24px;
+}
+.activity-item {
+    width: calc((100% - 48px)/3);
+}
+.company-team {
+    background-color: #F4F4FD;
+    padding: 120px 0;
+}
+
+.worker {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px)/4);
+    border-radius: 0px 0px 4px 4px;
+}
+.company-team-title-main {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
+    text-align: center;
+    margin-bottom: 72px;
+}
+.worker-list-image {
+    display: flex;
+    gap: 24px;
+}
+.company-team-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+    margin-bottom: 8px;
+}
+.company-team-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+.company-team-container {
+    background-color: var(--white-color);
+    text-align: center;
+    padding-top: 32px; 
+    padding-bottom: 32px; 
+    padding-left: 16px; 
+    padding-right: 16px;
+}
+.footer {
+    background-color: #2E2F42;
+    padding: 100px 0;
+}
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.footer-logo-accent{
+    color: #F4F4FD;
+}
+.footer-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#F4F4FD;
+    max-width: 264px;
+}
+.portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px; 
+}
+.btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--accent-color);
+    cursor: pointer;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    border: 1px solid #e7e9fc;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+}
+.btn-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+} 
+.btn:hover, .btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    border: 1px solid transparent;
+}
+.portfolio-list-img {
+    display:flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.portfolio-li {
+    width: calc((100% - 48px) / 3);
+}
+.portfolio-div-container {
+    border: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    border-top: none;
+}
+.portfolio-section-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+.portfolio-section-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+img {
+    display: block;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
